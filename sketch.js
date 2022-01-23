@@ -73,6 +73,7 @@ function draw (){
   background(spaceImg); 
   
   missile = createSprite(1100,-40,50,50);  
+  missile.lifetime = 150;
 
   if(gameState === START_SCREEN){
     if(keyDown("P")){
